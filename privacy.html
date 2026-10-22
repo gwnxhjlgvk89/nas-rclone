@@ -9,8 +9,8 @@
 <body>
 <h1>隐私权政策 / Privacy Policy</h1>
 <p>更新日期 / Last updated: 2026-10-22</p>
-<p>nas-rclone 只请求 Google Drive 的 <code>drive.file</code> 权限，只能访问由本应用自己创建的文件，无法读取云端硬盘中的其他内容。</p>
-<p>nas-rclone only requests the Google Drive <code>drive.file</code> scope, so it can access only the files it creates and cannot read anything else in Google Drive.</p>
+<p>nas-rclone 请求 Google Drive 的 <code>drive</code> 权限，仅用于把本人 NAS 上的文件上传、更新到本人云端硬盘中的备份目录，并读取这些备份文件用于比对和恢复，不会处理云端硬盘中的其他内容。</p>
+<p>nas-rclone requests the Google Drive <code>drive</code> scope. It is used only to upload and update files from the owner's NAS into a backup folder in the owner's own Google Drive, and to read those backup files for comparison and restore. Other Drive content is not processed.</p>
 <p>授权令牌只保存在本人的 NAS 上，不会发送给任何第三方。本应用不收集、不出售、不共享任何个人数据，也不包含广告或分析统计。</p>
 <p>The access token is stored only on the owner's NAS and is never sent to any third party. The app does not collect, sell or share personal data, and contains no ads or analytics.</p>
 <p>可以随时在 <a href="https://myaccount.google.com/permissions">Google 账号权限页面</a> 撤销授权。/ Access can be revoked at any time on the Google Account permissions page.</p>
